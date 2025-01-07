@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="config.css">
+  <script src="code.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <h1>Hello JS</h1>
+<button onclick="document.getElementById('lampada').src='ligada.webp'">Ligar</button>
+<img id="lampada" src="desligada.webp" alt="lanpada" onmouseenter="document.getElementById('lampada').src='ligada.webp'" onmouseleave="document.getElementById('lampada').src='desligada.webp'">
+<button onclick="document.getElementById('lampada').src='desligada.webp'">Desligar</button>
+
+</body>
+</html>

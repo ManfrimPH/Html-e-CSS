@@ -1,0 +1,14 @@
+#lampada{
+
+  height: 400px;
+  width: auto;
+
+}
+
+body{
+
+  display: flex;
+  justify-content: center;
+  background-color: black;
+
+}

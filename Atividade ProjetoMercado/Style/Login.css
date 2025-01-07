@@ -1,0 +1,56 @@
+body{
+
+  margin: 0%;
+  padding: 0%;
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+
+}
+
+#box{
+
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+  padding: 50px 100px;
+  margin-top: 80px;
+
+}
+
+h1{
+
+  font-size: 2.5em;
+
+}
+
+#nome,#senha{
+
+  font-size: 2em;
+  border-radius: 10px;
+  border-style: none;
+  border: 1px solid black;
+  
+
+}
+
+.texto{
+
+  font-size: 1.5em;
+
+}
+
+#botao{
+
+  font-size: 1.5em;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 50px;
+  border-style: none;
+  border: 1px solid black;
+
+
+}

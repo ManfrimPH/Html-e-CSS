@@ -1,0 +1,48 @@
+body{
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(35, 34, 34);
+  color: rgb(162, 161, 161);
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#calculadora{
+
+  background-color: rgb(68, 67, 67);
+  border-radius: 20px;
+  margin-top: 25px;
+  font-size: 2em;
+  text-align: center;
+
+}
+
+#lado{
+
+  font-size: 1.5em;
+  border-radius: 10px;
+  border-style: none;
+
+}
+
+#opcao{
+
+  font-size: 1.5em;
+  border-radius: 10px;
+  border-style: none;
+
+}
+
+#botao{
+
+  font-size: 1.5em;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  border-style: none;
+
+}

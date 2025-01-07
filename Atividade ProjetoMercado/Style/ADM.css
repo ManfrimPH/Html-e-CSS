@@ -1,0 +1,118 @@
+body{
+
+  margin: 6px;
+  padding: 0%;
+  background-color: rgb(20, 20, 80);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+
+  background-color: #f4f4f4;
+  display: flex;  
+  border-radius: 2vh;
+
+}
+
+header img{
+
+  width: 80px;
+  height: auto;
+
+
+}
+
+header h1{
+
+  margin-left: 72vh;
+  margin-right: 37vh;
+
+}
+
+header a{
+
+  text-decoration: none;
+  color: black;
+
+}
+
+
+header p{
+
+  margin-right: 2vh;
+  font-size: 1.2em;
+  color: black;
+  border: 1px solid black ;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #cbc8c8;
+
+}
+
+
+article{
+
+  width: 100%;
+  height: auto;
+
+}
+
+.item{
+
+  font-size: 1.2em;
+  margin-top: 5vh;
+  background-color: white;
+  border-radius: 2vh;
+
+
+}
+
+/* Cima esquerda baixo direito */
+
+.p, #botao_editar, #botao_excluir{
+
+  margin: 20px 100px 20px 100px;
+
+}
+
+.botao{
+
+  font-size: 1.5em;
+  background-color: blue;
+  color:  white;
+  border-radius: 10px;
+  margin: 10px;
+  margin-right: 30px;
+  border-style: none;
+  border: 1px solid black;
+
+}
+
+#novo{
+  
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5vh;
+  background-color: white;
+  border-radius: 2vh;
+  align-items: center;
+  display: flex;
+
+
+}
+
+#novo label{
+
+  font-size: 1.5em;
+
+}
+
+#novo input{
+
+  font-size: 1.5em;
+  border-radius: 10px;
+  border-style: none;
+  border: 1px solid black;
+
+}

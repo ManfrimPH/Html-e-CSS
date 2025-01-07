@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora</title>
+</head>
+<body>
+  
+  <div id="calculadora">
+    
+    <h1>Calculadora para Pedreiros</h1>
+    
+    <label for="lado">Comprimento do Lado:</label><br>
+    <input type="number" id="lado" min="0" step="any"><br><br>
+    
+    <label for="opcao">Escolha o que calcular:</label><br>
+    <select id="opcao">
+    
+    <option value="area">Área</option>
+    <option value="perimetro">Perímetro</option>
+   
+  </select><br><br>
+    
+    <button onclick="calcular()" id="botao">Calcular</button><br><br>
+    
+    <div id="resultado"></div>
+  </div>
+    
+
+  <script src="code.js"></script>
+</body>
+</html>

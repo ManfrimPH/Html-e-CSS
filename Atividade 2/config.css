@@ -1,0 +1,81 @@
+body{
+
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+
+  text-align: center;
+
+}
+
+#box{
+
+  background-color: #ffffff;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 12%;
+  left: 31%;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+#nome{
+
+  background-color: #ffffff;
+  width:500px;
+  height: 50px;
+  border-radius: 5px;
+
+}
+
+#conta{
+
+  background-color: #ffffff;
+  width:500px;
+  height: 50px;
+  border-radius: 5px;
+
+}
+
+#opcoes{
+
+  background-color: #ffffff;
+  width:500px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 17px;
+
+}
+
+#escolha{
+
+  background-color: #ffffff;
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+
+}
+
+label{
+
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+
+}
+
+#botao{
+
+  width:498px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #027bff;
+  color:white;
+  font-size: 20px;
+
+
+}

@@ -1,0 +1,44 @@
+body{
+
+  background-color: #302e2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+img{
+
+  width: 80px;
+  height: auto;
+
+}
+
+button{
+
+  opacity: 0;
+
+}
+
+#box1{
+
+  background-color: #ebecd0;
+
+}
+
+#box2,#destino,#boxbotao{
+
+  background-color: #739552;
+
+}
+
+
+
+#box1,#box2,#destino,#boxbotao{
+
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  width: 80 px;
+
+}
